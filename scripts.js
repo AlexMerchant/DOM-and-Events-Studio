@@ -40,6 +40,7 @@ function init() {
         landButton.addEventListener('click', function() {
             window.alert("The shuttle is landing. Landing gear engaged.");
             flightStatus.innerText = 'The shuttle has landed.';
+            flightStatus.style.color = 'green';
             shuttleBackground.style.backgroundColor = 'green';
             resetRocketPosition();
         });
